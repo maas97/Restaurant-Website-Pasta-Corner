@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="../Style/register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="nav">
+        <div class="logo">
+          <img class="logoimage" src="../Images/logo.png" alt="logo" />
+          <span class="logoname"> Pasta Corner </span>
+        </div>
+        <ul class="navlist">
+          <li><a href="../index.html" target="_blank">Home</a></li>
+          <li><a href="../Pages/Meals.html" target="_blank">Meals</a></li>
+          <li><a href="../Pages/q&a.html" target="_blank">Q & A</a></li>
+          <li><a href="../Pages/Contact.html" target="_blank">Contact</a></li>
+          <li><a href="../Pages/About.html" target="_blank">About</a></li>
+          <li><a href="Register.html">Register</a></li>
+          <li><a href="../Pages/Login.html" target="_blank">Login</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <form method="get" action="../index.html">
+        <div class="bigcontainer">
+          <div class="firstrow">
+            <div class="firstname">
+              <label for="name">First Name</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="lastname">
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" />
+            </div>
+          </div>
+
+          <div class="secondrow">
+            <div class="mail">
+              <label for="mail">E-mail</label>
+              <input class="mailinput" type="email" name="mail" />
+            </div>
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="password" name="password" />
+            </div>
+          </div>
+
+          <div class="thirdrow">
+            <div class="phone">
+              <label for="phone">Phone Number</label>
+              <input class="phoneinput" type="text" name="phone" />
+            </div>
+          </div>
+
+          <div class="submitdiv">
+            <input
+              class="submit"
+              type="submit"
+              name="submit"
+              class="Register"
+              value="Register"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="containfooter">
+      <div class="footer">
+        <span class="copyright">&copy; Pasta Corner / Samahi</span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+body {
+  background-color: #8fb9fe;
+  height: 1000px;
+}
+
+.top {
+  width: 125%;
+  background-color: black;
+  height: 130px;
+  margin: -20px;
+}
+
+.nav {
+  width: 125%;
+  background-color: #fca311;
+  height: 150px;
+  margin: -20px;
+  position: absolute;
+}
+
+.navlist {
+  position: absolute;
+  top: 45px;
+  right: 220px;
+  width: 55%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 21px;
+  border-right: #090d25 solid 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.logoimage {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 35px;
+  left: 50px;
+}
+
+.logoname {
+  position: absolute;
+  top: 75px;
+  left: 160px;
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: #ff0000;
+}
+
+/* Container Element */
+
+.container {
+  width: 1100;
+  height: 680;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 60px auto 50px;
+  position: relative;
+}
+
+.pic {
+  background-image: url("../Images/meals/services.jpg");
+  width: 433px;
+  height: 650px;
+  background-size: contain;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 15px;
+}
+
+.text {
+  margin: 15px;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  text-align: center;
+}
+
+.widerange {
+  font-family: "Racing Sans One", cursive;
+  font-size: 85px;
+  position: relative;
+}
+
+/* End of Container Element */
+
+/* First Element On Menu */
+.menu1 {
+  width: 1100;
+  height: 480;
+  border-radius: 20px;
+  background-color: #000000;
+  margin: 60px auto 50px;
+  position: relative;
+}
+
+.pic1 {
+  background-image: url("../Images/meals/pasta.jpg");
+  width: 450px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  right: 150px;
+  top: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.pic2 {
+  background-image: url("../Images/meals/pasta1.jpg");
+  width: 300px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  left: 200px;
+  top: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* End of First Element On Menu */
+
+/* Second Element On Menu */
+.menu2 {
+  width: 1100;
+  height: 480;
+  border-radius: 20px;
+  background-color: #000000;
+  margin: 60px auto 50px;
+  position: relative;
+}
+
+.pic4 {
+  background-image: url("../Images/meals/pizza1.jpg");
+  width: 253px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  right: 238px;
+  top: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.pic3 {
+  background-image: url("../Images/meals/pizza.jpg");
+  width: 370px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  left: 240px;
+  top: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* End of Second Element On Menu */
+
+/* Third Element On Menu */
+.menu3 {
+  width: 1100;
+  height: 480;
+  border-radius: 20px;
+  background-color: #000000;
+  margin: 60px auto 50px;
+  position: relative;
+}
+
+.pic5 {
+  background-image: url("../Images/meals/desserts.jpg");
+  width: 410px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  right: 175px;
+  top: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.pic6 {
+  background-image: url("../Images/meals/desserts1.jpg");
+  width: 300px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  left: 215px;
+  top: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* End of Third Element On Menu */
+
+/* Forth Element On Menu */
+.menu4 {
+  width: 1100;
+  height: 480;
+  border-radius: 20px;
+  background-color: #000000;
+  margin: 60px auto 50px;
+  position: relative;
+}
+
+.pic7 {
+  background-image: url("../Images/meals/side1.jpg");
+  width: 453px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  right: 150px;
+  top: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.pic8 {
+  background-image: url("../Images/meals/side.jpg");
+  width: 370px;
+  height: 450px;
+  background-size: contain;
+  position: absolute;
+  left: 125px;
+  top: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* End of Forth Element On Menu */
+
+.footer {
+  width: 125%;
+  background-color: #010105;
+  height: 90px;
+  margin: -10px;
+  position: absolute;
+  bottom: -2550;
+  text-align: center;
+}
+
+.copyright {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+  right: 150px;
+  top: 20px;
+  color: #ff0000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
