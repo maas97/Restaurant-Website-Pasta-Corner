@@ -149,6 +149,9 @@ a {
   left: 45px;
 }
 
+.red {
+  color: #ff0000 ;
+}
 .divv {
   display: inline-block;
   font-size: 55px;
